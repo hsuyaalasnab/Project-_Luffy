@@ -1,0 +1,85 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #E779EE;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered_right{
+  
+  position: absolute;
+  top: 5%;
+  text-align: center;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  left :  50%;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'one_piece';
+}
+
+#message_here
+{
+    height:100px;
+    width : 500px;
+    font-size:12pt;
+    text-align: center;
+}
+
+#devilf{
+  width: 200px;  
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+@font-face {
+        font-family: 'one_piece';
+        src: url('fonts/one_piece_font-webfont.woff2') format('woff2'),
+             url('fonts/one_piece_font-webfont.woff') format('woff');
+}
